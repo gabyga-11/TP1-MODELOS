@@ -3,4 +3,5 @@ project(TP1_MODELOS)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(TP1_MODELOS main.cpp)
+add_executable(TP1_MODELOS main.cpp
+        Washtime.cpp Washtime.h WashtimeVector.h WashtimeVector.cpp)

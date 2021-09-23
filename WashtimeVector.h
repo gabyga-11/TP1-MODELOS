@@ -1,0 +1,21 @@
+#ifndef TP1_MODELOS_WASHTIMEVECTOR_H
+#define TP1_MODELOS_WASHTIMEVECTOR_H
+#include "Washtime.h"
+
+class WashtimeVector {
+
+private:
+    Washtime* cloth;
+    int totalClothes;
+public:
+    WashtimeVector(int totalClothes);
+
+//ACA DEBERIA HABER UNA FUNCION QUE ENCUENTRE EL MAYOR TEMPORALMENTE DE TODOS LOS ELEMENTOS
+
+//OTRA FUNCION QUE BUSQUE EL MAYOR DE LOS ELEMENTOS QUE HAYA, COMPARANDO CON LOS QUE HAY EN UNA LISTA DE VECTORES
+
+    ~WashtimeVector();
+};
+
+
+#endif //TP1_MODELOS_WASHTIMEVECTOR_H
